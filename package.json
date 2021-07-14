@@ -1,0 +1,19 @@
+{
+  "name": "1999-chateau-ste-michelle-website",
+  "version": "1.0.0",
+  "description": "A faithful recreation of www.ste-michelle.com as it appeared in 1999.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mitchellneale/1999-Chateau-Ste-Michelle-Website.git"
+  },
+  "author": "Mitchell Neale",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mitchellneale/1999-Chateau-Ste-Michelle-Website/issues"
+  },
+  "homepage": "https://github.com/mitchellneale/1999-Chateau-Ste-Michelle-Website#readme"
+}
