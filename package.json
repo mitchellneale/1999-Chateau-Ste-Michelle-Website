@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/mitchellneale/1999-Chateau-Ste-Michelle-Website/issues"
   },
-  "homepage": "https://github.com/mitchellneale/1999-Chateau-Ste-Michelle-Website#readme"
+  "homepage": "https://github.com/mitchellneale/1999-Chateau-Ste-Michelle-Website#readme",
+  "devDependencies": {
+    "webpack": "^5.44.0",
+    "webpack-cli": "^4.7.2"
+  }
 }
