@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/mitchellneale/1999-Chateau-Ste-Michelle-Website#readme",
   "devDependencies": {
+    "css-loader": "^5.2.7",
+    "style-loader": "^3.1.0",
     "webpack": "^5.44.0",
     "webpack-cli": "^4.7.2"
   }
