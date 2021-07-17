@@ -1,294 +1,402 @@
 
-/* Heading */
+
+#content {
+  display: grid;
+  /* max-height: 793px; */
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  margin: 0 auto;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  max-width: 580px;
+  max-height: 550px;
+  padding-top: 10px;
+  /* border-left: 2.5px solid #000; */
+  
+}
 h1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    background-image: url('./img/home.gif');
-    height: 90px;
-    width: 310px;
-    margin: 0 auto;
-    padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+  background-image: url('./img/home.gif');
+  height: 90px;
+  width: 310px;
+  padding: 0;
+  z-index: 1;
 }
 h2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-image: url('./img/chateau.gif');
-    height: 158px;
-    width: 310px;
-    margin: 0 auto;
-    padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('./img/chateau.gif');
+  height: 158px;
+  width: 310px;
+  margin: 0 auto;
+  padding: 0;
+  z-index: 2;
 }
 h3 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-image: url('./img/logo.gif');
-    height: 39px;
-    width: 310px;
-    margin: 0 auto;
-    padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('./img/logo.gif');
+  height: 39px;
+  width: 310px;
+  margin: 0 auto;
+  padding-bottom: 15px;
+  z-index: 3;
 }
-
-/* Table Insert */
-thead {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 20px;
-    width: 580px;
-    margin: 0 auto;
-}
-
-/* Winery Section */
 #mainTableOne {
-    position: absolute;
-    left: 36%;
-    display: table;
-    align-self: center;
-    margin: 0 auto;
-    height: 175px;
-    width: 273px; 
-    float: left;
+  display: grid;
+  justify-content: center;
+  /*margin: 0 auto;  */
+  left: 36%;
+  float: left;
+  height: 185px;
+  width: 290px; /* 275px; */
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  
+  
+  
 }
-#tableOne {
-    display: inline-block;
-    text-align: center;
-    vertical-align: top;
-    border: none;
-    height: 58px;
-    width: 56px;
-    background-image: url('./img/winery.jpg');
+.tableOne {
+  display: grid;
+  justify-content: center;
+  /*margin: 0 auto;  */
+  text-align: left;
+  vertical-align: top;
+  background-image: url('./img/winery.jpg');
+  height: 58px;
+  width: 56px;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
 }
-#tableTwo {
-    display: inline-block;
-    text-align: center;
-    justify-items: top;
-    padding-left: 15px;
-    height: 36px;
-    font-size: 12pt;
-    color: blue;
-    text-decoration: underline;
+.tableTwo {
+  display: grid;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+  justify-items: top;
+  /* padding-left: 15px; */
+  height: 36px;
+  font-size: 12pt;
+  color: blue;
+  text-decoration: underline;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
 }
-#tableThree {
-    display: flexbox;
-    text-align:left;
-    flex-wrap: wrap;
-    flex-shrink: 1;
-    justify-content: center;
-    padding-left: 70px;
-    height: 135px;
-    width: 184px;
-    font-size: 10pt;
-    color: black;
+.tableThree{
+  display: grid;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: left;
+  padding-left: 70px;
+  height: 135px;
+  width: 184px;
+  font-size: 10pt;
+  color: black;
+  
+  
 }
-
-/* Pressed Section */
-#mainTableTwo{
-    position: absolute;
-    left: 36%;
-    top: 52%;
-    display: table;
-    align-self: center;
-    margin: 0 auto;
-    height: 100px;
-    width: 273px; 
-    float: left;
+#mainTableTwo {
+  display: grid;
+  justify-content: center;
+  /* margin: 0 auto; */
+  left: 36%;
+  top: 52%;
+  height: 110px;
+  width: 290px; /* 276px; */
+  float: left;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  
+  
 }
-#tableFour {
-    display: inline-block;
-    text-align: left;
-    vertical-align: top;
-    border: none;
-    height: 58px;
-    width: 56px;
-    background-image: url('./img/pressed.jpg');
+.tableFour {
+  display: grid;
+  justify-content: center;
+  /*margin: 0 auto;  */
+  text-align: left;
+  vertical-align: top;
+  border: none;
+  height: 58px;
+  width: 56px;
+  background-image: url('./img/pressed.jpg');
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 2;
+  grid-row-end: 2;
 }
-#tableFive {
-    display: inline-block;
-    text-align: center;
-    justify-items: top;
-    padding-left: 15px;
-    height: 36px;
-    font-size: 12pt;
-    color: blue;
-    text-decoration: underline;
+.tableFive {
+  display: grid;
+  justify-content: center;
+  margin: 0 auto;  
+  text-align: center;
+  justify-items: top;
+  padding-right: 25px; 
+  height: 36px;
+  font-size: 12pt;
+  color: blue;
+  text-decoration: underline;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 2;
+  grid-row-end: 2;
 }
-#tableSix {
-    display: inline-block;
-    text-align: left;
-    justify-content: center;
-    padding-left: 70px;
-    height: 60px;
-    width: 170px;
-    font-size: 10pt;
-    color: black;
+.tableSix {
+  display: grid;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: left;
+  padding-left: 70px;
+  height: 60px;
+  width: 170px;
+  font-size: 10pt;
+  color: black;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 3;
+  grid-row-end: 3;
 }
-
-/* CSMBook Section */
 #mainTableThree {
-    position: absolute;
-    left: 36%;
-    top: 65%;
-    display: table;
-    align-self: center;
-    margin: 0 auto;
-    height: 112px ;
-    width: 273px;
-    float: left;
+  display: grid;
+  justify-content: center;
+  /*margin: 0 auto;  */
+  align-self: center;
+  left: 36%;
+  top: 65%;
+  height: 123px ;
+  width: 290px; /* 276px; */
+  float: left;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 3;
+  grid-row-end: 3;
+  
+  
+  
 }
-#tableSeven {
-    display: inline-block;
-    text-align: left;
-    vertical-align: top;
-    border: none;
-    height: 58px;
-    width: 56px;
-    background-image: url('./img/csmbook.jpg');
-}
-#tableEight {
-    display: inline-block;
-    text-align: center;
-    justify-items: top;
-    padding-left: 15px;
-    height: 36px;
-    font-size: 12pt;
-    color: blue;
-    text-decoration: underline;
-}
-#tableNine {
-    display: inline-block;
-    text-align: left;
-    justify-content: center;
-    padding-left: 70px;
-    height: 60px;
-    width: 170px;
-    font-size: 10pt;
-    color: black;
-}
-/* Central Line */
- #lineElement {
-    height: 470px;
-    width: 1px; 
-    border: 1px solid black;
-    fill: black;
-    background-image: url(./img/blk_line.gif);
-    position: absolute;
-    top: 32%;
-    left: 50%;
-    align-self: center;
-    margin: 0 auto;
-} 
+.tableSeven {
+  display: grid;
+  justify-content: center;
+  /*margin: 0 auto;  */
+  text-align: left;
+  vertical-align: top;
+  border: none;
+  height: 58px;
+  width: 56px;
+  background-image: url('./img/csmbook.jpg');
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
 
-/* Vineyards Section */
+}
+.tableEight {
+  display: grid;
+  justify-content: center;
+  margin: 0 auto;  
+  text-align: center;
+  justify-items: top;
+  padding-right: 25px; 
+  height: 36px;
+  font-size: 12pt;
+  color: blue;
+  text-decoration: underline;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  
+}
+.tableNine {
+  display: grid;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: left;
+  padding-left: 70px;
+  height: 60px;
+  width: 170px;
+  font-size: 10pt;
+  color: black;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 3;
+  grid-row-end: 3;
+}
+
+  /* #lineElement {
+  display: block;
+  position: absolute;
+  overflow-y: hidden;
+  max-height: 555px;
+  height: 550px;
+  width: 1px; 
+  border: 1px solid black;
+  fill: black;
+  background-image: url(./img/blk_line.gif);
+  top: 32%;
+  left: 50%;
+  align-self: center;
+  margin: 0 auto; 
+  z-index: -1; 
+}  */
 #mainTableFour {
-    position: absolute;
-    right: 35%;
-    display: table;
-    align-self: center;
-    margin: 0 auto;
-    height: 275px ;
-    width: 273px;
-    float: right;
+  display: grid;
+  justify-content: center;
+  /*margin: 0 auto; */
+  right: 35%;
+  float: right;
+  height: 240px ;
+  width: 290px; /* 273px; */
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  
 }
-#tableTen {
-    display: inline-block;
-    text-align: left;
-    vertical-align: top;
-    border: none;
-    height: 58px;
-    width: 56px;
-    background-image: url('./img/vineyards.jpg');
+.tableTen {
+  display: grid;
+  justify-content: center;
+  /*margin: 0 auto;  */
+  text-align: left;
+  vertical-align: top;
+  height: 58px;
+  width: 56px;
+  background-image: url('./img/vineyards.jpg');
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  
 }
-#tableEleven {
-    display: inline-block;
-    text-align: center;
-    justify-items: top;
-    padding-left: 15px;
-    height: 36px;
-    font-size: 12pt;
-    color: blue;
-    text-decoration: underline;
+.tableEleven {
+  display: grid;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+  justify-items: top;
+  /* padding-left: 15px; */
+  height: 36px;
+  font-size: 12pt;
+  color: blue;
+  text-decoration: underline;
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  
 }
-#tableTwelve {
-    display: inline-block;
-    text-align: left;
-    justify-content: center;
-    padding-left: 70px;
-    height: 192px;
-    width: 195px;
-    font-size: 10pt;
-    color: black;
+.tableTwelve {
+  display: grid;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: left;
+  padding-left: 70px;
+  height: 192px;
+  width: 195px;
+  font-size: 10pt;
+  color: black;
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 2;
 }
-
-/* Flavors Section */
 #mainTableFive {
-    position: absolute;
-    right: 35%;
-    top: 61%;
-    display: table;
-    align-self: center;
-    margin: 0 auto;
-    height: 157px ;
-    width: 273px;
-    float: right;
+  display: grid;
+  right: 35%;
+  top: 61%;
+  align-self: center;
+  /*margin: 0 auto;  */
+  height: 160px ;
+  width: 290px; /* 275px; */
+  float: right;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 2;
+  
 }
-#tableThirteen{
-    display: inline-block;
-    text-align: left;
-    vertical-align: top;
-    border: none;
-    height: 58px;
-    width: 56px;
-    background-image: url('./img/flavors.jpg');
+.tableThirteen {
+  display: grid;
+  justify-content: center;
+  /*margin: 0 auto;  */
+  text-align: left;
+  vertical-align: top;
+  border: none;
+  height: 58px;
+  width: 56px;
+  background-image: url('./img/flavors.jpg');
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 2;
+  
 }
-#tableForteen {
-    display: inline-block;
-    text-align: center;
-    justify-items: top;
-    padding-left: 15px;
-    height: 36px;
-    font-size: 12pt;
-    color: blue;
-    text-decoration: underline;
+.tableFourteen {
+  display: grid;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+  justify-items: top;
+  /* padding-left: 15px; */
+  height: 36px;
+  font-size: 12pt;
+  color: blue;
+  text-decoration: underline;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 2;
 }
-#tableFifteen {
-    display: inline-block;
-    text-align: left;
-    justify-content: center;
-    padding-left: 70px;
-    height: 105px;
-    width: 195px;
-    font-size: 10pt;
-    color: black;
+.tableFifteen {
+  display: grid;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: left;
+  padding-left: 70px;
+  height: 105px;
+  width: 195px;
+  font-size: 10pt;
+  color: black;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 3;
 }
-
-/* Footer */
-#footerElement {
-    text-align: center;
-    margin: 0 auto;
-    width: 259px;
-    font-size: 10px;
-    position: absolute;
-    bottom: 17%;
-    left: 44%;
+.footerElement {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 259px;
+  font-size: 10px;
+  padding-top: 10px;
 }
-#sourceCitation {
-    font-size: 10px;
-    position: absolute;
-    margin: 0 auto;
-    align-self: center;
-    text-align: center;
-    left: 47%;
-    bottom: 1%;
-}
-#sourceLink {
-    display: flex;
-    text-align: center;
+.sourceCited {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+  font-size: 12px;
+  padding-top: 10px;
 }
