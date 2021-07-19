@@ -1,10 +1,9 @@
 
-
 #content {
   display: grid;
-  /* max-height: 793px; */
-  height: 100%;
-  width: 100%;
+  /* max-height: 800px; */
+  height: 100vh;
+  width: 100vw;
   justify-content: center;
   margin: 0 auto;
   grid-template-columns: repeat(2, 1fr);
@@ -12,8 +11,6 @@
   max-width: 580px;
   max-height: 550px;
   padding-top: 10px;
-  /* border-left: 2.5px solid #000; */
-  
 }
 h1 {
   display: flex;
@@ -64,9 +61,6 @@ h3 {
   grid-column-end: 1;
   grid-row-start: 1;
   grid-row-end: 1;
-  
-  
-  
 }
 .tableOne {
   display: grid;
@@ -90,7 +84,7 @@ h3 {
   justify-items: top;
   /* padding-left: 15px; */
   height: 36px;
-  font-size: 12pt;
+  font-size: 16px;
   color: blue;
   text-decoration: underline;
   grid-column-start: 1;
@@ -106,10 +100,8 @@ h3 {
   padding-left: 70px;
   height: 135px;
   width: 184px;
-  font-size: 10pt;
+  font-size: 13px;
   color: black;
-  
-  
 }
 #mainTableTwo {
   display: grid;
@@ -123,9 +115,7 @@ h3 {
   grid-column-start: 1;
   grid-column-end: 1;
   grid-row-start: 2;
-  grid-row-end: 2;
-  
-  
+  grid-row-end: 2; 
 }
 .tableFour {
   display: grid;
@@ -150,7 +140,7 @@ h3 {
   justify-items: top;
   padding-right: 25px; 
   height: 36px;
-  font-size: 12pt;
+  font-size: 16px;
   color: blue;
   text-decoration: underline;
   grid-column-start: 1;
@@ -166,7 +156,7 @@ h3 {
   padding-left: 70px;
   height: 60px;
   width: 170px;
-  font-size: 10pt;
+  font-size: 13px;
   color: black;
   grid-column-start: 1;
   grid-column-end: 1;
@@ -187,9 +177,6 @@ h3 {
   grid-column-end: 1;
   grid-row-start: 3;
   grid-row-end: 3;
-  
-  
-  
 }
 .tableSeven {
   display: grid;
@@ -205,7 +192,6 @@ h3 {
   grid-column-end: 1;
   grid-row-start: 1;
   grid-row-end: 1;
-
 }
 .tableEight {
   display: grid;
@@ -215,14 +201,13 @@ h3 {
   justify-items: top;
   padding-right: 25px; 
   height: 36px;
-  font-size: 12pt;
+  font-size: 16px;
   color: blue;
   text-decoration: underline;
   grid-column-start: 1;
   grid-column-end: 1;
   grid-row-start: 1;
   grid-row-end: 1;
-  
 }
 .tableNine {
   display: grid;
@@ -232,16 +217,15 @@ h3 {
   padding-left: 70px;
   height: 60px;
   width: 170px;
-  font-size: 10pt;
+  font-size: 13px;
   color: black;
   grid-column-start: 1;
   grid-column-end: 1;
   grid-row-start: 3;
   grid-row-end: 3;
 }
-
-  /* #lineElement {
-  display: block;
+ /* #lineElement {
+  display: flex;
   position: absolute;
   overflow-y: hidden;
   max-height: 555px;
@@ -255,7 +239,7 @@ h3 {
   align-self: center;
   margin: 0 auto; 
   z-index: -1; 
-}  */
+} */
 #mainTableFour {
   display: grid;
   justify-content: center;
@@ -268,7 +252,6 @@ h3 {
   grid-column-end: 2;
   grid-row-start: 1;
   grid-row-end: 1;
-  
 }
 .tableTen {
   display: grid;
@@ -283,7 +266,6 @@ h3 {
   grid-column-end: 2;
   grid-row-start: 1;
   grid-row-end: 1;
-  
 }
 .tableEleven {
   display: grid;
@@ -293,14 +275,13 @@ h3 {
   justify-items: top;
   /* padding-left: 15px; */
   height: 36px;
-  font-size: 12pt;
+  font-size: 16px;
   color: blue;
   text-decoration: underline;
   grid-column-start: 2;
   grid-column-end: 2;
   grid-row-start: 1;
   grid-row-end: 1;
-  
 }
 .tableTwelve {
   display: grid;
@@ -310,7 +291,7 @@ h3 {
   padding-left: 70px;
   height: 192px;
   width: 195px;
-  font-size: 10pt;
+  font-size: 13px;
   color: black;
   grid-column-start: 2;
   grid-column-end: 2;
@@ -324,13 +305,12 @@ h3 {
   align-self: center;
   /*margin: 0 auto;  */
   height: 160px ;
-  width: 290px; /* 275px; */
+  width: 290px; 
   float: right;
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 4;
   grid-row-end: 2;
-  
 }
 .tableThirteen {
   display: grid;
@@ -346,7 +326,6 @@ h3 {
   grid-column-end: 3;
   grid-row-start: 4;
   grid-row-end: 2;
-  
 }
 .tableFourteen {
   display: grid;
@@ -356,7 +335,7 @@ h3 {
   justify-items: top;
   /* padding-left: 15px; */
   height: 36px;
-  font-size: 12pt;
+  font-size: 16px;
   color: blue;
   text-decoration: underline;
   grid-column-start: 2;
@@ -372,7 +351,7 @@ h3 {
   padding-left: 70px;
   height: 105px;
   width: 195px;
-  font-size: 10pt;
+  font-size: 13px;
   color: black;
   grid-column-start: 2;
   grid-column-end: 3;
@@ -399,4 +378,12 @@ h3 {
   margin: 0 auto;
   font-size: 12px;
   padding-top: 10px;
+}
+@media only screen and (max-width: 600px) {
+  #content {
+    margin: 0 auto;
+    display: grid;
+    height: fit-content !important;
+    width: fit-content !important;
+  }
 }

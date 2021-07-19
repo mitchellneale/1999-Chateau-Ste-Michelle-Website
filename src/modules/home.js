@@ -18,7 +18,7 @@
       const headThree = document.createElement('h3');
       heading.appendChild(headThree);
   } 
- 
+  
 /* Body Section: Contains functions to render the main body
   of page and index of hyperlinks.
   
