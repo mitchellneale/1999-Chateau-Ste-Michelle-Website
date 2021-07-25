@@ -1,7 +1,7 @@
 # 1999 Chateau Ste. Michelle Website
 A faithful recreation of www.ste-michelle.com as it appeared in 1999. 
 
-> View this project live here (https://mitchellneale.github.io/1999-Chateau-Ste-Michelle-Website/) 
+> View this project live here: https://mitchellneale.github.io/1999-Chateau-Ste-Michelle-Website/
 
 Compare it to the Wayback Machine capture here at [The Internet Archive](https://web.archive.org/web/19990125103520/http://www.ste-michelle.com/).
 
