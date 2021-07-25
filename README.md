@@ -10,11 +10,11 @@ As is the case with many websites from the 1990s, the original relies heavily up
 
 ## Tools & Technologies
 - HTML, CSS, JavaScript
-- [webpack](https://webpack.js.org/) - for bundling modules
-- [GitHub Pages](https://pages.github.com/)]
-- [ESLint](http://eslint.org/) for linting JavaScript
-- [Prettier](https://prettier.io/) for formatting JavaScript
+- [ESLint](http://eslint.org/) - for linting JavaScript
+- [GitHub Pages](https://pages.github.com/)
 - [Node.js](https://nodejs.org/en/)
+- [Prettier](https://prettier.io/) - for formatting JavaScript
+- [webpack](https://webpack.js.org/) - for bundling modules
 
 
 ## License
