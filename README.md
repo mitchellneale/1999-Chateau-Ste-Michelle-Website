@@ -13,7 +13,7 @@ As is the case with many websites from the 1990s, the original relies heavily up
 - [webpack](https://webpack.js.org/) - for bundling modules
 - [GitHub Pages](https://pages.github.com/)]
 - [ESLint](http://eslint.org/) for linting JavaScript
-- [Prettier](https://prettier.io/) for formatting JavaScript]
+- [Prettier](https://prettier.io/) for formatting JavaScript
 - [Node.js](https://nodejs.org/en/)
 
 
