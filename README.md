@@ -6,7 +6,7 @@ A faithful recreation of www.ste-michelle.com as it appeared in 1999.
 Compare it to the Wayback Machine capture here at [The Internet Archive](https://web.archive.org/web/19990125103520/http://www.ste-michelle.com/).
 
 ## Objective & Intent
-To bring the 1999 website into the 21st century using CSS for styling and JavaScript to perform DOM manipulation with minimal use of HTML.
+This project aims to bring the 1999 website into the 21st century using CSS for styling and JavaScript to perform DOM manipulation with minimal use of HTML.
 
 As is often the case with websites from the 1990s, the original relies heavily upon HTML table and image tags. Instead, the recreated version uses div tags positioned within a CSS grid layout (introduced in 2007) to achieve the same effect. This site also uses JavaScript to create HTML elements and uses DOM manipulation to set element classes, which are then styled using CSS.
 
