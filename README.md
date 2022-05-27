@@ -22,3 +22,6 @@ As is often the case with websites from the 1990s, the original relies heavily u
 ## License
 * [MIT License](https://opensource.org/licenses/MIT)
 * Copyright 2021, Mitchell Neale, All rights reserved.
+
+##
+![visitor badge](https://visitor-badge.glitch.me/badge?page_id=1999-Chateau-Ste-Michelle-Website.visitor-badge&left_text=Visitors)
